@@ -1,0 +1,33 @@
+@import 'assets/styles/entry';
+
+.root {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  align-items: baseline;
+}
+
+.input {
+  max-width: 200px;
+}
+
+.equations {
+  font-size: 80px;
+  letter-spacing: 2px;
+  color: $codGray;
+}
+
+.button {
+  margin-top: 60px;
+  width: 300px;
+}
+
+.timer {
+  margin-top: 16px;
+  color: $cuttySark;
+}
